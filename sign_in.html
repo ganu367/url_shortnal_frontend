@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in</title>
+    <link rel="stylesheet" href="css/sign_in.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="left">
+        <ul>
+          <li class="items-menu">
+            <a href="http://" target="_blank" rel="noopener noreferrer">Home</a>
+          </li>
+          <li class="items-menu">
+            <a href="http://" target="_blank" rel="noopener noreferrer"
+              >Services</a
+            >
+          </li>
+          <li class="items-menu">
+            <a href="http://" target="_blank" rel="noopener noreferrer"
+              >About us</a
+            >
+          </li>
+          <li class="items-menu">
+            <a href="http://" target="_blank" rel="noopener noreferrer"
+              >Contact us</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="right">
+        <a href="" class="search-icon"><i class="bx bx-search"></i></a>
+        <a href="" class="btn">Sign In</a>
+        <a href="" class="btn">Sign Up</a>
+      </div>
+    </nav>
+
+    <hr />
+    <div class="container">
+      <h2>Log In</h2>
+      <p>
+        Welcome Back! Login your credential that your entered <br />
+        during the ragistration.
+      </p>
+      <form action="noaction.php" method="post">
+        <div class="name">
+          <label for="email">Username</label>
+          <input
+            type="text"
+            name="username"
+            id="email"
+            placeholder="Enter your username"
+          />
+        </div>
+        <div class="pass">
+          <label for="pass">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="pass"
+            placeholder="password"
+          />
+        </div>
+        <!-- <div class="remember-forget">
+          <label for="remember-me"
+            ><input type="checkbox" name="remember-me" id="remember-me" />
+            Rememeber Me</label
+          >
+          <a href="">Forget Password ?</a>
+        </div> -->
+        <div class="rem-forget">
+          <label for="remember-me"> <input
+            type="checkbox"
+            name="remember-me"
+            id="remember-me"
+          />Remember Me</label
+        ></label>
+           
+          <a href="">Forget Password</a>
+        </div>
+        <div class="btn-container">
+          <a href="" class="btn">sign in</a>
+          <a href="" class="btn google-btn"
+            ><i class="bx bxl-google"></i> Continue With Google</a
+          >
+          <a href="" class="btn-text">Don't have an account? Sign Up</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
